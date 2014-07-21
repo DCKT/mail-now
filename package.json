@@ -1,0 +1,26 @@
+{
+  "name": "mail-now",
+  "version": "0.0.0",
+  "description": "Launch a mail server for your application",
+  "main": "lib/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DCKT/mail-now"
+  },
+  "keywords": [
+    "mail",
+    "http"
+  ],
+  "author": "Thomas Deconinck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DCKT/mail-now/issues"
+  },
+  "homepage": "https://github.com/DCKT/mail-now",
+  "dependencies": {
+    "nodemailer": "^1.0.3"
+  }
+}
