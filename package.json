@@ -1,7 +1,7 @@
 {
   "name": "mail-now",
-  "version": "0.0.0",
-  "description": "Launch a mail server for your application",
+  "version": "0.0.1",
+  "description": "Launch a mail server for any application",
   "main": "lib/app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,9 @@
     "mail",
     "http"
   ],
+  "bin": {
+    "mail-now": "bin/mail-now"
+  },
   "author": "Thomas Deconinck",
   "license": "MIT",
   "bugs": {
